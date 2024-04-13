@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="logo2.png" alt="">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">
+            </div>
+            <div class="menu">
+                    <a href="dashboard.html"><i class="fa fa-tachometer"></i><span>Dashboard</span></a>
+                    <a href="product.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>View Product</span></a>
+                    <a href="Order.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Order Details</span></a>
+                    <a href="employee.html"><i class="fa fa-archive f-s-20 color-warning"></i><span>Employee List</span></a>
+                    <a href="customer.html"><i class="fa fa-cutlery" aria-hidden="true"></i><span>Customers Details</span></a>
+                    
+                    <a href="notification.html"><i class="fa-regular fa-comment"></i><span>Notification</span></a>
+                    
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+                <button><i class="fa fa-search"></i></button>
+            </div>
+          
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img src="tshirt.jpg" alt="Image 1">
+                     <h3>T-shirt</h3>
+                     <p>450tk</p>
+                     <button class="showshirt-model">Details</button>
+
+
+                </div>
+
+                <div class="grid-item">
+                    <img src="saree.jpg" alt="Image 1">
+                    <h3>Saree</h3>
+                    <p>600tk</p>
+                    <button class="showsaree-model">Details</button>
+                </div>
+
+                <div class="grid-item">
+                    <img src="shirt2.jpg" alt="Image 1">
+                    <h3>shirt</h3>
+                     <p>350</p>
+                     <button class="showshirt-model">Details</button>
+                </div>
+
+                <div class="grid-item">
+                    <img src="kamiz.jpg" alt="Image 1">
+                    <h3>kamiz</h3>
+                     <p>830tk</p>
+                     <button class="show-model">Details</button>
+                </div>
+
+                <div class="grid-item">
+                    <img src="pant.jpg" alt="Image 1">
+                    <h3>Pant</h3>
+                     <p>320tk</p>
+                     <button class="show-model">Details</button>
+                </div>
+
+                <div class="grid-item">
+                    <img src="shirt2.jpg" alt="Image 1">
+                    <h3>Shirt</h3>
+                     <p>350tk</p>
+                     <button class="showshirt-model">Details</button>
+                </div>
+
+                <div class="grid-item">
+                    <img src="tshirt.jpg" alt="Image 1">
+                    <h3>T-shirt</h3>
+                     <p>450tk</p>
+                     <button class="showshirt-model">Details</button>
+                </div>
+
+                <div class="grid-item">
+                    <img src="saree.jpg" alt="Image 1">
+                    <h3>Saree</h3>
+                     <p>600tk</p>
+                     <button class="showsaree-model">Details</button>
+
+                </div>
+
+
+                <div class="grid-item">
+                    <img src="kurti.webp" alt="Image 1">
+                    <h3>Kurti</h3>
+                     <p>540tk</p>
+                     <button class="show-model">Details</button>
+                </div>
+
+
+                <div class="grid-item">
+                    <img src="kamiz.jpg" alt="Image 1">
+                    <h3>Kamiz</h3>
+                     <p>830tk</p>
+                     <button class="show-model">Details</button>
+                </div>
+
+
+                <div class="grid-item">
+                    <img src="pant.jpg" alt="Image 1">
+                    <h3>Pant</h3>
+                     <p>320tk</p>
+                     <button class="show-model">Details</button>
+                </div>
+
+
+                <div class="grid-item">
+                    <img src="kurti.webp" alt="Image 1">
+                    <h3>Kurti</h3>
+                     <p>540</p>
+                     <button class="show-model">Details</button>
+                </div>
+
+
+                <div class="grid-item">
+                    <img src="tshirt.jpg" alt="Image 1">
+                    <h3>T-shirt</h3>
+                     <p>450tk</p>
+                     <button class="showshirt-model">Details</button>
+                </div>
+
+                
+                <div id="modal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <h2 class="kurti">Kurti/Kamiz Details</h2>
+                        <h3>Availbale Sizes</h3>
+                        <table>
+                            <tr>
+                              <th>Area</th>
+                              <th>S</th>
+                              <th>M</th>
+                              <th>L</th>
+                              <th>X</th>
+                              <th>XLL</th>
+                            </tr>
+                            <tr>
+                              <td>BUST</td>
+                              <td class="size38">36</td>
+                              <td>38</td>
+                              <td>40</td>
+                              <td>42</td>
+                              <td class="size38">44</td>
+                            </tr>
+                            <tr>
+                              <td>WAIST</td>
+                              <td>34</td>
+                              <td>36</td>
+                              <td>38</td>
+                              <td>40</td>
+                              <td>42</td>
+                            </tr>
+                            <tr>
+                              <td>HIP</td>
+                              <td>40</td>
+                              <td>42</td>
+                              <td>44</td>
+                              <td>46</td>
+                              <td>48</td>
+                            </tr>
+                        </table>
+                        
+                         <h3 class="redmark">Red Mark=NOT availabe</h3>
+                    </div>
+                </div>
+
+
+                <div id="modalshirt" class="modalshirt">
+                    <div class="modalshirt-content">
+                        <span class="closeshirt">&times;</span>
+                        <h2 class="shirt">T-shirt/Shirt Details</h2>
+                        <h3>Availbale Sizes</h3>
+                        <table>
+                            <tr>
+                              <th>Area</th>
+                              <th>S</th>
+                              <th>M</th>
+                              <th>L</th>
+                              <th>X</th>
+                              <th>XLL</th>
+                            </tr>
+                            <tr>
+                              <td>BUST</td>
+                              <td class="size38">36</td>
+                              <td>38</td>
+                              <td>40</td>
+                              <td>42</td>
+                              <td class="size38">44</td>
+                            </tr>
+                            <tr>
+                              <td>WAIST</td>
+                              <td>34</td>
+                              <td>36</td>
+                              <td>38</td>
+                              <td>40</td>
+                              <td>42</td>
+                            </tr>
+                            <tr>
+                              <td>HIP</td>
+                              <td>40</td>
+                              <td>42</td>
+                              <td>44</td>
+                              <td>46</td>
+                              <td>48</td>
+                            </tr>
+                        </table>
+                        
+                         <h3 class="redmark">Red Mark=NOT availabe</h3>
+                    </div>
+                </div>
+
+
+                <div id="modalsaree" class="modalsaree">
+                    <div class="modalsaree-content">
+                        <span class="closesaree">&times;</span>
+                        <h2 class="sareeh2">Saree Details</h2>
+                        <p class="sareep">Sorry.....This is not Available</p>
+                        <button class="sareebutton">ADD</button>
+                    </div>
+                </div>
+                </div>
+                 
+           
+            
+            
+        </div>
+            
+        <div class="form">
+            <form action="" method="post" enctype="multipart/form-data">
+                <p>Product Name</p>
+                <input type="text" name="dish">
+                
+                <p>Description</p>
+                <input type="text" name="description"><br>
+                <p>Price</p>
+                <input type="text" name="price"><br>
+                
+                <p>Image</p>
+                <input type="file" name="file">
+                <p>Select Product</p>
+                <select name="add_restaurant" id="">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+           
+                <input type="submit" name="submit" value="Add">
+                
+            </form>
+        </div>
+    </div>
+        
+    </div>
+
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; Threads Reborn. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="productde.js"></script>
+</body>
+</html>

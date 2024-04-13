@@ -1,0 +1,158 @@
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color:black;
+
+}
+.header img{
+    width: 100%;
+    height: 100%;
+    
+}
+.logo{
+    height: 100%;
+    width: 25%;
+  
+    float: left;
+
+}
+.logo img{
+    width:200px;
+    height: 90px;
+    margin-left: 50px;
+    margin-top: 10px;
+
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    background-color:white;
+    color: #fff;
+    padding: 20px;
+    margin-right:15px ;
+}
+
+
+.menu a {
+    display: block;
+    color:black;
+    text-decoration: none;
+    padding: 10px 0;
+    border-bottom: 1px solid #444;
+}
+
+.menu a:hover {
+    background-color:#ccc;
+}
+
+.main {
+    flex: 1;
+    padding: 20px;
+}
+
+.search-bar {
+    margin-bottom: 20px;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.grid-item {
+    text-align: center;
+    background-color:#ccc;
+    width:280px;
+    height:225px;
+    border-radius:15px;
+}
+
+.grid-item img {
+    margin-top:5px;
+    max-width: 25%;
+    height: auto;
+    border-radius: 40px;
+}
+
+.grid-item p {
+    margin-top: 10px;
+}
+.image{
+    width:11px;
+    height:2px;
+}
+.buttons-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    padding: 10px 20px;
+   
+    background-color:white;
+    color:black;
+    border: none;
+    cursor: pointer;
+    width:100px;
+    height:30px;
+
+}
+button:hover{
+    background-color:cornflowerblue;
+}
+.details{
+margin-top:2px;
+background-color:cornflowerblue;
+border:none;
+}
+
+.details:hover{
+   background-color: white;
+    }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
